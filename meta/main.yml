@@ -1,6 +1,6 @@
 galaxy_info:
   author: elnebuloso
-  description: compass for Linux Server
+  description: Compass SCSS with Ruby
   license: license (MIT)
 
   min_ansible_version: 2.0
@@ -10,6 +10,9 @@ galaxy_info:
       versions:
         - trusty
         - xenial
+    - name: EL
+      versions:
+        - 7
 
   galaxy_tags:
     - system

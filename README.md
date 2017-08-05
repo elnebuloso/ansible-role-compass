@@ -1,4 +1,4 @@
-# Ansible Role - compass for Linux Server
+# Ansible Role - Compass SCSS with Ruby
 
 [![Build Status](https://travis-ci.org/elnebuloso/ansible-role-compass.svg?branch=master)](https://travis-ci.org/elnebuloso/ansible-role-compass)
 
@@ -10,6 +10,7 @@ This role requires Ansible 2.0 or higher, and platform requirements are listed i
 
 - ubuntu14
 - ubuntu16
+- centos7
 
 ## Role Variables
 

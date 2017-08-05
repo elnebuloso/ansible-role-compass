@@ -1,0 +1,22 @@
+---
+- name: install the 'Development tools' package group
+  yum:
+    name: "@Development tools"
+    state: present
+
+- name: install essentials
+  yum:
+    name: "{{item}}"
+    state: present
+  with_items:
+    - which
+    - ruby
+    - ruby-devel
+    - rubygems
+
+- name: install gem compass
+  become: yes
+  become_user: root
+  command: gem install compass
+  args:
+    creates: /usr/local/bin/compass
