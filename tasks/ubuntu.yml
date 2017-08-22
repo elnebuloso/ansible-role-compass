@@ -5,7 +5,7 @@
   apt_repository: repo='ppa:brightbox/ruby-ng' state=present
 
 - name: install essential packages
-  apt: pkg={{item}} state=present update_cache=yes cache_valid_time=3600
+  apt: pkg={{item}} state={{compass_ruby_state}} update_cache=yes cache_valid_time=3600
   with_items:
     - ruby2.4
     - ruby2.4-dev
@@ -15,5 +15,3 @@
   become: yes
   become_user: root
   command: gem install compass
-  args:
-    creates: /usr/local/bin/compass

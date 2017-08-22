@@ -14,7 +14,7 @@ This role requires Ansible 2.0 or higher, and platform requirements are listed i
 
 ## Role Variables
 
-None.
+- [`defaults/main.yml`](https://github.com/elnebuloso/ansible-role-compass/blob/master/defaults/main.yml)
 
 ## Example Playbook
 

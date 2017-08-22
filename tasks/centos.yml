@@ -7,7 +7,7 @@
 - name: install essentials
   yum:
     name: "{{item}}"
-    state: present
+    state: "{{compass_ruby_state}}"
   with_items:
     - which
     - ruby
@@ -18,5 +18,3 @@
   become: yes
   become_user: root
   command: gem install compass
-  args:
-    creates: /usr/local/bin/compass
