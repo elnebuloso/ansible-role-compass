@@ -10,6 +10,7 @@
     - ruby2.4
     - ruby2.4-dev
     - build-essential
+    - libffi-dev
 
 - name: install gem compass
   become: yes

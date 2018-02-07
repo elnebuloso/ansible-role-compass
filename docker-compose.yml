@@ -2,16 +2,16 @@ version: "2"
 
 services:
   ubuntu14:
-    image: elnebuloso/ansible:ubuntu14-1.3.0
+    image: elnebuloso/ansible:2.4-ubuntu14
     volumes:
       - .:/etc/ansible/roles/ansible-role-compass
 
   ubuntu16:
-    image: elnebuloso/ansible:ubuntu16-1.3.0
+    image: elnebuloso/ansible:2.4-ubuntu16
     volumes:
       - .:/etc/ansible/roles/ansible-role-compass
 
   centos7:
-    image: elnebuloso/ansible:centos7-1.3.0
+    image: elnebuloso/ansible:2.4-centos7
     volumes:
       - .:/etc/ansible/roles/ansible-role-compass
