@@ -1,2 +1,2 @@
 ---
-- include: "{{closure_compiler_os_dist}}.yml"
+- include_tasks: "{{compass_os}}.yml"
