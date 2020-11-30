@@ -1,6 +1,6 @@
 # Ansible Role - Compass SCSS with Ruby
 
-[![Build Status](https://travis-ci.org/elnebuloso/ansible-role-compass.svg?branch=master)](https://travis-ci.org/elnebuloso/ansible-role-compass)
+![abandoned](https://img.shields.io/badge/project-abandoned-red)
 
 ## Requirements
 
